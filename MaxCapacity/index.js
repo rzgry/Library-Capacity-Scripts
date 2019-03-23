@@ -2,7 +2,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const { APCount, MaximumAPCount } = require('./models/APCount');
 
-const NUMBER_OF_DOCS_TO_USE = 10;
+const NUMBER_OF_DOCS_TO_USE = 15;
 
 async function calculateMaximumForLibrary(libraryName, docStructure) {
   // find the X number of documents with the largest total count of people in the library
@@ -31,6 +31,7 @@ async function calculateMaximumForLibrary(libraryName, docStructure) {
   libMaximumCapacity.floors.forEach(floor => {
     floor.count /= NUMBER_OF_DOCS_TO_USE;
     floor.count = Math.ceil(floor.count);
+    floor.count = Math.max(floor.count, 5); // set capacity to at least 5
   });
 
   return libMaximumCapacity;
