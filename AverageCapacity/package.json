@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearch-to-mdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "average.js",
+  "scripts": {
+    "start": "node average.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "elasticsearch": "^15.4.1",
+    "mongoose": "^5.4.14"
+  }
+}
