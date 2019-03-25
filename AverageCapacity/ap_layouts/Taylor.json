@@ -1,0 +1,40 @@
+{
+  "name": "Taylor Library",
+  "description": "Taylor library wifi access point floor structure",
+  "Level 1": [
+    "WA1NSC051",
+    "WA1NSC051A",
+    "WA1NSCTA07",
+    "WA2NSC051",
+    "WA2NSC051A",
+    "WA3NSC051",
+    "WA4NSC051"
+  ],
+  "Level 2": [
+    "WA1NSC51",
+    "WA1NSC51A",
+    "WA1NSC60",
+    "WA1NSC70",
+    "WA2NSC51",
+    "WA2NSC51A",
+    "WA1NSC53"
+  ],
+  "Level 3": [
+    "WA1NSC106",
+    "WA1NSC151",
+    "WA1NSC151A",
+    "WA1NSC153",
+    "WA1NSC170",
+    "WA1NSC170G",
+    "WA1NSCTA122",
+    "WA2NSC151",
+    "WA2NSC151A",
+    "WA3NSC151"
+  ],
+  "Stacks 1": ["WA1NSC30"],
+  "Stacks 2": ["WA1NSC50"],
+  "Stacks 3": ["WA1NSC112"],
+  "Stacks 4": ["WA1NSC150", "WA1NSC150D"],
+  "Stacks 5": ["WA1NSC210B"],
+  "Stacks 6": ["WA1NSC210C"]
+}
