@@ -2,7 +2,8 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const { APCount, MaximumAPCount } = require('./models/APCount');
 
-const NUMBER_OF_DOCS_TO_USE = 15;
+const NUMBER_OF_DOCS_TO_USE =
+  Number.parseInt(process.env.NUMBER_OF_DOCS_TO_USE) || 20;
 
 async function calculateMaximumForLibrary(libraryName, docStructure) {
   // find the X number of documents with the largest total count of people in the library
